@@ -79,6 +79,9 @@ const introduction = {
     "Hello there, I'm so happy you are here! (:",
 
     "I'm Maurice Williams, a detail-oriented Front-End Developer based in New York City, United States, with 15+ years of experience building scalable React, TypeScript, and Tailwind CSS applications, enterprise UI platforms, and design systems for large-scale SaaS environments. Proven expertise delivering component-driven architectures, reusable UI libraries, micro-frontend solutions, and high-performance web applications with strong focus on UX engineering, API integrations, and scalable frontend architecture. Experienced collaborating with product, design, and platform teams to build modern customer-facing applications supporting millions of users. I hold a B.Sc. in Computer Science from the Mercy University.",
+    "React is my primary competency: I build and maintain modern interfaces with React.js, plus Next.js or Vite.js where the stack calls for it. I translate Figma into pixel-perfect, responsive layouts with obsessive attention to spacing, typography, hierarchy, and motion-using GSAP (and complementary techniques) while keeping Lighthouse performance scores in the 90+ range and Core Web Vitals healthy through bundle discipline, lazy loading, and render optimization.",
+    "I'm comfortable supporting WordPress front-end customization and ACF where the ecosystem still matters, while steering toward maintainable, framework-driven patterns and custom or headless CMS approaches over time. I integrate REST APIs daily, follow strict naming and architecture guidelines, document as I go, and treat self-QA as non-negotiable-cross-browser, responsive, accessibility, and performance-before handoff, without leaning on a heavy QA buffer. I use AI tools like Copilot and Claude responsibly to speed delivery while preserving architectural integrity. I hold a B.Sc. in Computer Science from the Singapore Institute of Technology (SIT).",
+    "",
   ],
 };
 
@@ -126,8 +129,7 @@ const experience = [
   {
     company: "Napster",
     role: "Senior Full Stack Developer",
-    focus:
-      "React.js · Next.js · Vite.js · TypeScript · Tailwind CSS · Node.js, AI integration",
+    focus: "React.js · Next.js · Vite.js · TypeScript · Tailwind CSS · Node.js",
     period: "03 / 2016 - 12 / 2021",
     location: "Los Angeles, CA",
     highlights: [
