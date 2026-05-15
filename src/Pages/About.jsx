@@ -57,7 +57,7 @@ const About = () => {
                 >
                   {introduction.text[3]}
                 </span>
-                {/* <a href="cv/Ariel_Berjit_Resume.pdf" download>
+                <a href="cv/Maurice C  Williams_Senior Full Stack Engineer.pdf" download>
                   <span
                     className="text-primary-600"
                     style={{ fontSize: "0.95em", fontWeight: "700" }}
@@ -66,7 +66,7 @@ const About = () => {
                     <span style={{ textDecoration: "underline" }}>here</span>
                     {introduction.text[4].split("here")[1]}
                   </span>
-                </a> */}
+                </a>
               </m.p>
             </LazyMotion>
           </div>

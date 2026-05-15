@@ -9,29 +9,27 @@
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faX,
-  faBars,
-  faWindowRestore,
+  faFigma,
+  faLinkedin,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
+import {
   faBagShopping,
+  faBars,
   faDiceD6,
   faEnvelope,
+  faWindowRestore,
+  faX,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faReact,
-  faLinkedin,
-  faFigma,
-} from "@fortawesome/free-brands-svg-icons";
 
 import {
-  htmlIcon,
   cssIcon,
-  jsIcon,
-  reactIcon,
-  gitIcon,
   eslintIcon,
-  viteIcon,
-  nodeIcon,
   figmaIcon,
+  gitIcon,
+  htmlIcon,
+  jsIcon,
+  nodeIcon,
   portfolio1,
   portfolio3,
   portfolio4,
@@ -39,6 +37,8 @@ import {
   portfolio6,
   portfolio7,
   portfolio8,
+  reactIcon,
+  viteIcon,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -77,11 +77,10 @@ const icons = {
 const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
-
-    "I'm Maurice Williams, a detail-oriented Front-End Developer based in New York City, United States, with 15+ years of experience building scalable React, TypeScript, and Tailwind CSS applications, enterprise UI platforms, and design systems for large-scale SaaS environments. Proven expertise delivering component-driven architectures, reusable UI libraries, micro-frontend solutions, and high-performance web applications with strong focus on UX engineering, API integrations, and scalable frontend architecture. Experienced collaborating with product, design, and platform teams to build modern customer-facing applications supporting millions of users. I hold a B.Sc. in Computer Science from the Mercy University.",
-    "React is my primary competency: I build and maintain modern interfaces with React.js, plus Next.js or Vite.js where the stack calls for it. I translate Figma into pixel-perfect, responsive layouts with obsessive attention to spacing, typography, hierarchy, and motion-using GSAP (and complementary techniques) while keeping Lighthouse performance scores in the 90+ range and Core Web Vitals healthy through bundle discipline, lazy loading, and render optimization.",
-    "I'm comfortable supporting WordPress front-end customization and ACF where the ecosystem still matters, while steering toward maintainable, framework-driven patterns and custom or headless CMS approaches over time. I integrate REST APIs daily, follow strict naming and architecture guidelines, document as I go, and treat self-QA as non-negotiable-cross-browser, responsive, accessibility, and performance-before handoff, without leaning on a heavy QA buffer. I use AI tools like Copilot and Claude responsibly to speed delivery while preserving architectural integrity. I hold a B.Sc. in Computer Science from the Singapore Institute of Technology (SIT).",
-    "",
+    "I'm Maurice Williams, With over 15 years of experience in full stack engineering, I specialize in building scalable SaaS platforms, AI-powered applications, and enterprise-grade systems that solve complex business challenges. My background spans fintech, healthcare, analytics, and media streaming, where I' ve delivered high-performance products using React, Next.js, TypeScript, Node.js, Python, and cloud-native technologies. I enjoy turning ambitious ideas into reliable, user-focused digital experiences that balance performance, scalability, and clean architecture.",
+    "Throughout my career, I' ve led the development of modern web and mobile applications that serve thousands to millions of users. From architecting AI-driven executive assessment platforms to improving music streaming recommendation systems and optimizing large-scale transaction platforms, I focus on creating solutions that produce measurable business impact. My work combines strong frontend engineering, backend system design, microservices architecture, and cloud infrastructure expertise across AWS, Azure, Docker, and Kubernetes.",
+    "Beyond writing code, I' m passionate about collaboration, mentorship, and building engineering cultures that value quality and innovation. I enjoy working closely with cross-functional teams to design intuitive user experiences, improve development workflows, and deliver secure, maintainable products at scale. Whether leading projects, modernizing legacy systems, or integrating AI into existing platforms, I bring a practical, results-driven approach to every stage of the development lifecycle.",
+    "You can download my resume here",
   ],
 };
 
@@ -318,4 +317,4 @@ const markerSvg = `<svg viewBox="-4 0 36 36">
     <circle fill="black" cx="14" cy="14" r="7"></circle>
   </svg>`;
 
-export { media, introduction, experience, projects, skills, markerSvg, icons };
+export { experience, icons, introduction, markerSvg, media, projects, skills };
